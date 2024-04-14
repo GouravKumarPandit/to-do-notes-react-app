@@ -1,6 +1,6 @@
-import NotesItem from './NotesItem';
-import NotesInput from './NotesInput';
-import NotesHeading from './NotesHeading';
+import NotesItem from './components/NotesItem';
+import NotesInput from './components/NotesInput';
+import NotesHeading from './components/NotesHeading';
 
 import './App.css';
 
