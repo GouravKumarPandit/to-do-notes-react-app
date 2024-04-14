@@ -3,7 +3,7 @@ import styles from './EmptyItems.module.css';
 const EmptyItems = () => {
     return (
         <>
-            <p className={`${styles['emptyTodo']}`}>All Tasks Completed, Enjoy Your DAY!!</p>
+            <p className={`${styles['emptyTodo']}`}>Stay organized and manage your day-to-day with To Do App!!</p>
         </>
     );
 }

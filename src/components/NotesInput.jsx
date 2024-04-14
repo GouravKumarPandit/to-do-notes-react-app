@@ -24,11 +24,11 @@ const NotesInput = ({ onAddingHandleToDo }) => {
                 </div>
                 <div className="col-sm-2">
                     <button type="submit" className="btn btn-primary all-button" onClick={ () => {
-                                if(toDoWork && toDoDate){
+                                // if(toDoWork && toDoDate){
                                     onAddingHandleToDo(toDoWork, toDoDate);
                                     changeToDoWork("");
                                     changetoDoDate("");
-                                }
+                                // }
                             }
                         }>
                         <IoIosAddCircle /> Add
